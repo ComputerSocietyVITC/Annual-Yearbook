@@ -15,7 +15,7 @@
 <!-- Mark all the applicable boxes. To mark the box as done follow the following conventions -->
 
 - [ ] I have read [CONTRIBUTING.md](../CONTRIBUTING.md)
-- [ ] I have read the [CODE OF CONDUCT](../CODE_OF_CONDUCT.md)
+- [ ] I have followed the [CODE OF CONDUCT](../CODE_OF_CONDUCT.md)
 - [ ] My code follows the style guidelines of this project
 - [ ] I have performed a self-review of my code
 - [ ] I have commented my code, particularly in hard-to-understand areas
