@@ -38,3 +38,7 @@
 
 ## :scroll: Screenshots
 <!--Please include screenshots of which issue is fixed here. (If applicable)-->
+
+Original           | Updated
+:--------------------: | :--------------------:
+**original screenshot** | **updated screenshot** |
