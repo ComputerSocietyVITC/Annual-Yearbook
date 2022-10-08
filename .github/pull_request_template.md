@@ -18,8 +18,6 @@
 - [ ] I have performed a self-review of my code
 - [ ] I have commented my code, particularly in hard-to-understand areas
 - [ ] My changes generate no new warnings
-- [ ] Any dependent changes have been merged and published in downstream modules
-- [ ] New and existing unit tests pass locally with my changes
 - [ ] I have done `git pull` before adding my new changes
 - [ ] The title of my pull request is a short description of the requested changes.
 
