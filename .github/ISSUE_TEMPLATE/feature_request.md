@@ -11,10 +11,10 @@ assignees: ''
 **Please search on the issues tab before creating one.**
 
 ## Is your feature request related to a problem? Please describe.
-<!-- A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]-->
+<!--- A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]-->
 
 ## Expected Behavior
-<!-- If you're suggesting a change/improvement, tell us how it should work -->
+<!--- If you're suggesting a change/improvement, tell us how it should work -->
 
 ## Current Behavior
 <!-- If suggesting a change/improvement, explain the difference from current behaviour -->
