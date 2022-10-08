@@ -17,3 +17,7 @@ This project uses React, TailwindCSS and JavaScript for development! We will con
 - TailwindCSS
 
 ## Our Contributors
+
+<a href = "https://github.com/ComputerSocietyVITC/Annual-Yearbook/graphs/contributors">
+    <img src="https://contrib.rocks/image?repo=ComputerSocietyVITC/Annual-Yearbook"/>
+</a>
