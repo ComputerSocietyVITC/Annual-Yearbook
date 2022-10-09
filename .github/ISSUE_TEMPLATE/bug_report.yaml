@@ -1,0 +1,39 @@
+---
+name: Bug report
+about: Create a bug report to help us improve
+title: ''
+labels: bug
+assignees: ''
+
+---
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: A brief description of the issue, also include what you tried and what didn't work! If possible upload a screenshot.
+    validations:
+      required: true
+- type: textarea
+    id: extrainfo
+    attributes:
+      label: Additional information
+      description: Is there anything else we should know about this idea?
+    validations:
+      required: false
+- type: markdown
+    attributes:
+      label: details of environment
+      value: |
+        ## Your Environment
+        <!--- Include as many relevant details about the environment you experienced the bug in -->
+        * Version used:
+        * Browser Name and version:
+        * Operating System and version (desktop and/or mobile):
+        * Link to your project:
+- type: markdown
+    attributes:
+      value: |
+       ## Thanks for taking the time to add a issue!
+        To claim this issue, please ask for it below. 
+        The maintainers will assign a contributor to this issue.
