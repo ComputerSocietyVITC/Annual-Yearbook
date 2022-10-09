@@ -1,6 +1,6 @@
-import { graphql, useStaticQuery } from 'gatsby';
-import { Helmet } from 'react-helmet';
-import React from 'react';
+import { graphql, useStaticQuery } from "gatsby";
+import { Helmet } from "react-helmet";
+import React from "react";
 
 const SEO = ({ title, description }) => {
   const { site } = useStaticQuery(graphql`
