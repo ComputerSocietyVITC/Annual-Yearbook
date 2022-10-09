@@ -1,27 +1,3 @@
-# name: Add contributors
-# run-name: Changes to Readme - ${{ inputs.deploy_target }} by @${{ github.actor }}
-# on:
-#   push:
-#     branches:
-#       - master
-
-# jobs:
-#   add-contributors:
-#     runs-on: ubuntu-latest
-#     steps:
-#       - uses: actions/checkout@v2
-#       - run: |
-#             rm -rf README.md
-#             cp template README.md
-#             curl https://get-contrib-job.herokuapp.com/contributors/ComputerSocietyVITC/Annual-Yearbook >> README.md
-#             git config user.name github-actions
-#             git config user.email github-actions@github.com
-#             git add .
-#             git commit -m "[actions]: update Readme"
-#             git push
-            
-            
-            
 name: Add contributors
 on:
  push:
