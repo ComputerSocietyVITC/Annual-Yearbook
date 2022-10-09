@@ -1,4 +1,3 @@
----
 name: 🐞 Bug
 description: Report an issue to help improve the project.
 labels: ["bug"]
@@ -14,12 +13,13 @@ body:
     id: extrainfo
     attributes:
       label: Additional information
-      description: Is there anything else we should know about this idea?
+      description: Is there anything else we should know about this bug?
     validations:
       required: false
   - type: markdown
+    id: environ-version
     attributes:
-      label: details of environment
+      label: Details of environment
       value: |
         ## Your Environment
         <!--- Include as many relevant details about the environment you experienced the bug in -->
