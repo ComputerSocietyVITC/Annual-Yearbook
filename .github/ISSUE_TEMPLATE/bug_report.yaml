@@ -19,7 +19,6 @@ body:
   - type: markdown
     id: environ-version
     attributes:
-      label: Details of environment
       value: |
         ## Your Environment
         <!--- Include as many relevant details about the environment you experienced the bug in -->
