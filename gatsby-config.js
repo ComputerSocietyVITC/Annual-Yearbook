@@ -23,6 +23,6 @@ module.exports = {
     },
     __key: "images"
   },
-  'gatsby-plugin-react-helment'
+  'gatsby-plugin-react-helmet'
   ]
 };
