@@ -16,6 +16,20 @@ body:
     validations:
       required: true
   - type: textarea
+    id: expected
+    attributes:
+      label: Expected Behaviour
+      description: Tell us how it should work
+    validations:
+      required: false
+  - type: textarea
+    id: current
+    attributes:
+      label: Current Behaviour
+      description: Explain the difference of expected Behavior from current behaviour 
+    validations:
+      required: false
+  - type: textarea
     id: extrainfo
     attributes:
       label: Additional information
