@@ -47,4 +47,4 @@ const NotFoundPage = () => {
 
 export default NotFoundPage;
 
-export const Head = () => <SEO title="Annual Yearbook" />;
+export const Head = () => <title>404 Page not found!</title>
