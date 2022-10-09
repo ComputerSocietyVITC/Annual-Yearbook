@@ -1,21 +1,45 @@
+# name: Add contributors
+# run-name: Changes to Readme - ${{ inputs.deploy_target }} by @${{ github.actor }}
+# on:
+#   push:
+#     branches:
+#       - master
+
+# jobs:
+#   add-contributors:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - uses: actions/checkout@v2
+#       - run: |
+#             rm -rf README.md
+#             cp template README.md
+#             curl https://get-contrib-job.herokuapp.com/contributors/ComputerSocietyVITC/Annual-Yearbook >> README.md
+#             git config user.name github-actions
+#             git config user.email github-actions@github.com
+#             git add .
+#             git commit -m "[actions]: update Readme"
+#             git push
+            
+            
+            
 name: Add contributors
-run-name: Changes to Readme - ${{ inputs.deploy_target }} by @${{ github.actor }}
 on:
-  push:
-    branches:
-      - master
+ push:
+   branches:
+     - master
 
 jobs:
   add-contributors:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - run: |
-            rm -rf README.md
-            cp template README.md
-            curl https://get-contrib-job.herokuapp.com/contributors/ComputerSocietyVITC/Annual-Yearbook >> README.md
-            git config user.name github-actions
-            git config user.email github-actions@github.com
-            git add .
-            git commit -m "[actions]: update Readme"
-            git push
+    - uses: actions/checkout@v2
+    - uses: BobAnkh/add-contributors@master
+      with:
+        CONTRIBUTOR: '### Contributors'
+        COLUMN_PER_ROW: '6'
+        ACCESS_TOKEN: ${{secrets.GITHUB_TOKEN}}
+        IMG_WIDTH: '50'
+        FONT_SIZE: '14'
+        PATH: '/README.md'
+        COMMIT_MESSAGE: '[actions]: update Readme'
+        AVATAR_SHAPE: 'round'
