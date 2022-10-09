@@ -2,6 +2,12 @@ name: 🐞 Bug
 description: Report an issue to help improve the project.
 labels: ["bug"]
 body:
+  - type: markdown
+    id: 
+    attributes:
+      value: |
+        **Your issue may already be reported!**
+        **Please search on the issues tab before creating one.**
   - type: textarea
     id: description
     attributes:
