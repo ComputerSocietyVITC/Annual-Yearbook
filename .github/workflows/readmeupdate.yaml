@@ -1,4 +1,5 @@
 name: Add contributors
+run-name: Changes to Readme - ${{ inputs.deploy_target }} by @${{ github.actor }})
 on:
   # schedule:
   #   - cron:  '20 20 * * *'
@@ -11,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-    - run-name: Changes to Readme - ${{ inputs.deploy_target }} by @${{ github.actor }})
+    
       with:
         CONTRIBUTOR: 'https://github.com/ComputerSocietyVITC/Annual-Yearbook/graphs/contributors'
         COLUMN_PER_ROW: '6'
