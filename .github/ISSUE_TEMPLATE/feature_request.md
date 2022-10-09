@@ -1,39 +1,52 @@
----
-name: Feature request
-about: Suggest an idea for this project
-title: ''
-labels: enhancement
-assignees: ''
 
----
 
 **Your issue may already be reported!**
 **Please search on the issues tab before creating one.**
 
-## Is your feature request related to a problem? Please describe.
-<!--- A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]-->
-
-## Expected Behavior
-<!--- If you're suggesting a change/improvement, tell us how it should work -->
-
-## Current Behavior
-<!-- If suggesting a change/improvement, explain the difference from current behaviour -->
-
-## Possible Solution
-<!--Not obligatory, but suggest a fix/reason for ideas on how to implement the addition or change - -->
-
-
-
-
-## Additional Context
-<!-- How has this issue affected you? What are you trying to accomplish? -->
-<!-- Providing context helps us come up with a solution that is most useful in the real world -->
-
-
-### Versions
-
-### Screenshots
-
-- #### Original
-
-- #### Updated
+name: 💡 General Feature Request
+description: Have a new idea/feature for LinkFree? Please suggest!
+title: "[FEATURE] <description>"
+labels: ["enhancement"]
+  
+body:
+  - type: markdown
+    id: 
+    attributes:
+      value: |
+        **Your issue may already be reported!**
+        **Please search on the issues tab before creating one.**
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: A brief description of the enhancement you propose, also include what you tried and what worked.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected Behaviour
+      description: Tell us how it should work
+    validations:
+      required: false
+  - type: textarea
+    id: current
+    attributes:
+      label: Current Behaviour
+      description: Explain the difference of expected Behavior from current behaviour 
+    validations:
+      required: false
+  - type: textarea
+    id: extrainfo
+    attributes:
+      label: Additional information
+      description: Is there anything else we should know about this idea?
+    validations:
+      required: false
+  
+  - type: markdown
+    attributes:
+      value: |
+       ## Thanks for taking the time to add a issue!
+        To claim this issue, please ask for it below. 
+        The maintainers will assign a contributor to this issue.
