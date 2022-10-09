@@ -2,8 +2,6 @@
 name: 🐞 Bug
 description: Report an issue to help improve the project.
 labels: ["bug"]
-
----
 body:
   - type: textarea
     id: description
@@ -12,14 +10,14 @@ body:
       description: A brief description of the issue, also include what you tried and what didn't work! If possible upload a screenshot.
     validations:
       required: true
-- type: textarea
+  - type: textarea
     id: extrainfo
     attributes:
       label: Additional information
       description: Is there anything else we should know about this idea?
     validations:
       required: false
-- type: markdown
+  - type: markdown
     attributes:
       label: details of environment
       value: |
@@ -29,7 +27,7 @@ body:
         * Browser Name and version:
         * Operating System and version (desktop and/or mobile):
         * Link to your project:
-- type: markdown
+  - type: markdown
     attributes:
       value: |
        ## Thanks for taking the time to add a issue!
