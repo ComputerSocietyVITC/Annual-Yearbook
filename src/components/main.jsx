@@ -8,7 +8,7 @@ let Main = () => {
     <>
       <Layout>
         <section className="pt-10 flex flex-auto justify-center text-black">
-          <img src={logo} alt="cs_logo" />
+          <img src={logo} alt="cs_logo"/>
         </section>
         <section className="py-4 text-4xl font-bold flex flex-auto justify-center">
           Annual Yearbook
@@ -20,7 +20,6 @@ let Main = () => {
           story/fact about their time at university
         </section>
         <ContributorList />
-
         <section className="py-4 text-xl font-medium flex flex-auto justify-center hover:underline">
           <a href="https://github.com/ComputerSocietyVITC">
             Developed by IEEE Computer Society VITC with 💖 ©{" "}

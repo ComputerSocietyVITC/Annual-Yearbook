@@ -1,7 +1,7 @@
 type Contributor = {
     name: string,
     github: string,
-    picUrl: string
+    avatar: string
 };
 
 export default Contributor
