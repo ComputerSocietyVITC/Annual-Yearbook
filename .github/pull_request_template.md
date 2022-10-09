@@ -1,4 +1,4 @@
-## New Pull Request
+# New Pull Request
 
 - **:pencil: What kind of change does this PR introduce?** (Bug fix, feature, docs update, ...)
 

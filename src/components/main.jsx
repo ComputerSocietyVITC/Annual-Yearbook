@@ -1,13 +1,14 @@
 import * as React from "react";
 import logo from "../images/icon.png";
 import Layout from "./layout";
+import ContributorList from "../components/contributors";
 
 let Main = () => {
   return (
     <>
       <Layout>
         <section className="pt-10 flex flex-auto justify-center text-black">
-          <img src={logo} />
+          <img src={logo} alt="cs_logo" />
         </section>
         <section className="py-4 text-4xl font-bold flex flex-auto justify-center">
           Annual Yearbook
@@ -18,9 +19,12 @@ let Main = () => {
           students are welcome to list their profile here and present a cool
           story/fact about their time at university
         </section>
+        <ContributorList />
+
         <section className="py-4 text-xl font-medium flex flex-auto justify-center hover:underline">
           <a href="https://github.com/ComputerSocietyVITC">
-            Developed by IEEE Computer Society VITC with 💖  © {new Date().getFullYear()}
+            Developed by IEEE Computer Society VITC with 💖 ©{" "}
+            {new Date().getFullYear()}
           </a>
         </section>
       </Layout>

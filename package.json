@@ -29,6 +29,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.12",
+    "gatsby-plugin-react-helmet": "^5.24.0",
     "postcss": "^8.4.17",
     "tailwindcss": "^3.1.8"
   }
