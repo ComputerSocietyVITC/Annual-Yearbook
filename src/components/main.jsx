@@ -19,11 +19,11 @@ let Main = () => {
           students are welcome to list their profile here and present a cool
           story/fact about their time at university
         </section>
-        <ContributorList/>
-
+        <ContributorList />
         <section className="py-4 text-xl font-medium flex flex-auto justify-center hover:underline">
           <a href="https://github.com/ComputerSocietyVITC">
-            Developed by IEEE Computer Society VITC with 💖  © {new Date().getFullYear()}
+            Developed by IEEE Computer Society VITC with 💖 ©{" "}
+            {new Date().getFullYear()}
           </a>
         </section>
       </Layout>

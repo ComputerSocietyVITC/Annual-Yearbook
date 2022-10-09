@@ -3,7 +3,7 @@ description: Report an issue to help improve the project.
 labels: ["bug"]
 body:
   - type: markdown
-    id: 
+    id:
     attributes:
       value: |
         **Your issue may already be reported!**
@@ -22,33 +22,51 @@ body:
       description: Tell us how it should work
     validations:
       required: false
-  - type: textarea
-    id: current
+  - type: input
+    id: contact
     attributes:
-      label: Current Behaviour
-      description: Explain the difference of expected Behavior from current behaviour 
+      label: Contact Details
+      description: How can we get in touch with you if we need more info?
+      placeholder: ex. email@example.com
     validations:
       required: false
   - type: textarea
-    id: extrainfo
+    id: what-happened
     attributes:
-      label: Additional information
-      description: Is there anything else we should know about this bug?
+      label: What happened?
+      description: Also tell us, what did you expect to happen?
+      placeholder: Tell us what you see!
+      value: "A bug happened!"
     validations:
-      required: false
-  - type: markdown
-    id: environ-version
+      required: true
+  - type: textarea
+    id: version
     attributes:
-      value: |
-        ## Your Environment
-        <!--- Include as many relevant details about the environment you experienced the bug in -->
-        * Version used:
-        * Browser Name and version:
-        * Operating System and version (desktop and/or mobile):
-        * Link to your project:
-  - type: markdown
+      label: Version
+      description: What version of our software are you running?
+    validations:
+      required: true
+  - type: dropdown
+    id: browsers
     attributes:
-      value: |
-       ## Thanks for taking the time to add a issue!
-        To claim this issue, please ask for it below. 
-        The maintainers will assign a contributor to this issue.
+      label: What browsers are you seeing the problem on?
+      multiple: true
+      options:
+        - Firefox
+        - Chrome
+        - Safari
+        - Microsoft Edge
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant log output
+      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
+      render: shell
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true
