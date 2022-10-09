@@ -1,4 +1,4 @@
-import React,{useState, useEffect} from "react";
+import React, { useState, useEffect } from "react";
 import ContributorType from "../types/ContributorType";
 import axios from "axios";
 
