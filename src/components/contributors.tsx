@@ -4,7 +4,7 @@ import axios from "axios";
 
 let Contributor = (props: { contributor: ContributorType; }) => {
     const { contributor } = props;
-    console.log(contributor)
+    
     return (
         <>
             <div>
@@ -40,7 +40,7 @@ let ContributorList = () => {
         // You need to restrict it at some point
         // This is just dummy code and should be replaced by actual
         getContributors();
-        console.log(contributors)
+        
       }, []);
 
     return (
