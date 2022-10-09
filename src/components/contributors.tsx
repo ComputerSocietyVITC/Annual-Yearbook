@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import ContributorType from "../types/ContributorType";
-import axios from "axios";
 
 let Contributor = (props: { contributor: ContributorType; }) => {
     const { contributor } = props;
@@ -8,8 +7,8 @@ let Contributor = (props: { contributor: ContributorType; }) => {
     return (
         <>
             <div>
-                <a href={contributor.github}>
-                    <img alt={contributor.name} title={contributor.name} src={contributor.avatar} className="block rounded-full h-12"/>
+                <a href={contributor.html_url}>
+                    <img alt={contributor.login} title={contributor.login} src={contributor.avatar_url} className="block rounded-full h-12"/>
                 </a>
             </div>
         </>
@@ -22,23 +21,13 @@ let ContributorList = () => {
 
     useEffect(() => {
         async function getContributors() {
-            const { data, status } = await axios.get<ContributorType[]>("https://get-contrib-job.herokuapp.com/contributors/ComputerSocietyVITC/Annual-Yearbook?json",
-            {
-                headers: {
-                    Accept: 'application/json',
-                },
-            });
+            const data:Promise<ContributorType[]> = fetch("https://api.github.com/repos/ComputerSocietyVITC/Annual-Yearbook/contributors")
+                                                .then(response => response.json())
 
-            if (!status) {
-                return;
-            }
-
-            setContributors(data)
+            setContributors(await data)
 
         };
     
-        // You need to restrict it at some point
-        // This is just dummy code and should be replaced by actual
         getContributors();
         
       }, []);
@@ -50,7 +39,7 @@ let ContributorList = () => {
                 <div className="flex justify-center gap-5">
                 {
                     contributors.map((contrib) => (
-                        <Contributor contributor={contrib} key={contrib.name} />
+                        <Contributor contributor={contrib} key={contrib.login} />
                     ))
                 }
                 </div>
