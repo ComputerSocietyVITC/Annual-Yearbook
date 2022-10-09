@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
- - run-name: Changes to Readme - ${{ inputs.deploy_target }} by @${{ github.actor }})
+    - run-name: Changes to Readme - ${{ inputs.deploy_target }} by @${{ github.actor }})
       with:
         CONTRIBUTOR: 'https://github.com/ComputerSocietyVITC/Annual-Yearbook/graphs/contributors'
         COLUMN_PER_ROW: '6'
