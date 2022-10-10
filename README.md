@@ -65,6 +65,13 @@ This project uses React, TailwindCSS and JavaScript for development! We will con
 </tr>
 <tr>
     <td align="center" style="word-wrap: break-word; width: 75.0; height: 75.0">
+        <a href=https://github.com/prerit2001>
+            <img src=https://avatars.githubusercontent.com/u/67575900?v=4 width="50;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=Prerit Kumar Jha/>
+            <br />
+            <sub style="font-size:14px"><b>Prerit Kumar Jha</b></sub>
+        </a>
+    </td>
+    <td align="center" style="word-wrap: break-word; width: 75.0; height: 75.0">
         <a href=https://github.com/Deceptrax123>
             <img src=https://avatars.githubusercontent.com/u/87447180?v=4 width="50;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=Srinitish S/>
             <br />
