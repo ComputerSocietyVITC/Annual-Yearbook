@@ -42,33 +42,33 @@ This project uses React, TailwindCSS and JavaScript for development! We will con
         </a>
     </td>
     <td align="center" style="word-wrap: break-word; width: 75.0; height: 75.0">
-        <a href=https://github.com/0b51d14n217>
-            <img src=https://avatars.githubusercontent.com/u/84272970?v=4 width="50;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=Arnav Sharma/>
-            <br />
-            <sub style="font-size:14px"><b>Arnav Sharma</b></sub>
-        </a>
-    </td>
-    <td align="center" style="word-wrap: break-word; width: 75.0; height: 75.0">
-        <a href=https://github.com/jagadyudha>
-            <img src=https://avatars.githubusercontent.com/u/41937681?v=4 width="50;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=Jagad Yudha Awali/>
-            <br />
-            <sub style="font-size:14px"><b>Jagad Yudha Awali</b></sub>
-        </a>
-    </td>
-    <td align="center" style="word-wrap: break-word; width: 75.0; height: 75.0">
         <a href=https://github.com/ManavvGarg>
             <img src=https://avatars.githubusercontent.com/u/58691392?v=4 width="50;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=Manav Garg/>
             <br />
             <sub style="font-size:14px"><b>Manav Garg</b></sub>
         </a>
     </td>
-</tr>
-<tr>
     <td align="center" style="word-wrap: break-word; width: 75.0; height: 75.0">
         <a href=https://github.com/icebelly29>
             <img src=https://avatars.githubusercontent.com/u/68722494?v=4 width="50;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=Nikhil Nair/>
             <br />
             <sub style="font-size:14px"><b>Nikhil Nair</b></sub>
+        </a>
+    </td>
+    <td align="center" style="word-wrap: break-word; width: 75.0; height: 75.0">
+        <a href=https://github.com/0b51d14n217>
+            <img src=https://avatars.githubusercontent.com/u/84272970?v=4 width="50;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=Arnav Sharma/>
+            <br />
+            <sub style="font-size:14px"><b>Arnav Sharma</b></sub>
+        </a>
+    </td>
+</tr>
+<tr>
+    <td align="center" style="word-wrap: break-word; width: 75.0; height: 75.0">
+        <a href=https://github.com/jagadyudha>
+            <img src=https://avatars.githubusercontent.com/u/41937681?v=4 width="50;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=Jagad Yudha Awali/>
+            <br />
+            <sub style="font-size:14px"><b>Jagad Yudha Awali</b></sub>
         </a>
     </td>
     <td align="center" style="word-wrap: break-word; width: 75.0; height: 75.0">
