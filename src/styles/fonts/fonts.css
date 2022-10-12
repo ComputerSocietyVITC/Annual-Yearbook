@@ -1,0 +1,11 @@
+@font-face {
+  font-family: "audiowide";
+  src: url("./Audiowide-Regular.ttf");
+  font-weight: regular;
+}
+
+@font-face {
+  font-family: "jalla";
+  src: url("./FjallaOne-Regular.ttf");
+  font-weight: regular;
+}

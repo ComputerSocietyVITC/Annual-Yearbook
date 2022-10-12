@@ -46,4 +46,4 @@ const NotFoundPage = () => {
 
 export default NotFoundPage;
 
-export const Head = () => <title>404 Page not found!</title>
+export const Head = () => <title>404 Page not found!</title>;
