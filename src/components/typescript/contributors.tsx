@@ -1,5 +1,11 @@
+<<<<<<< HEAD:src/components/contributors.tsx
 import React, { useEffect, useState } from "react";
 import ContributorType from "..//types/ContributorType";
+=======
+import React, { useState, useEffect } from "react";
+import ContributorType from "../../types/ContributorType";
+import axios from "axios";
+>>>>>>> fdfc11ea477ef6697e3de9db0f7f2652f87e2ac2:src/components/typescript/contributors.tsx
 
 let Contributor = (props: { contributor: ContributorType }) => {
   const { contributor } = props;
