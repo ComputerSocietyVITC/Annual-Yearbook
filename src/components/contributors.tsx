@@ -1,6 +1,5 @@
-import React, { useState, useEffect } from "react";
-import ContributorType from "../types/ContributorType";
-import axios from "axios";
+import React, { useEffect, useState } from "react";
+import ContributorType from "..//types/ContributorType";
 
 let Contributor = (props: { contributor: ContributorType }) => {
   const { contributor } = props;
@@ -24,25 +23,25 @@ let Contributor = (props: { contributor: ContributorType }) => {
 let ContributorList = () => {
   const [contributors, setContributors] = useState<ContributorType[]>([]);
 
+  type Response = { login: string; html_url: string; avatar_url: string };
+
   useEffect(() => {
     async function getContributors() {
-      const { data, status } = await axios.get<ContributorType[]>(
-        "https://get-contrib-job.herokuapp.com/contributors/ComputerSocietyVITC/Annual-Yearbook?json",
-        {
-          headers: {
-            Accept: "application/json",
-          },
-        }
+      const data: Response[] = await fetch(
+        "https://api.github.com/repos/ComputerSocietyVITC/Annual-Yearbook/contributors"
+      ).then((response) => response.json());
+
+      setContributors(
+        data
+          .filter((i) => i.login !== "github-actions[bot]")
+          .map((i) => ({
+            name: i.login,
+            avatar: i.avatar_url,
+            github: i.html_url,
+          }))
       );
-
-      if (!status) {
-        return;
-      }
-
-      setContributors(data);
     }
-    // You need to restrict it at some point
-    // This is just dummy code and should be replaced by actual
+
     getContributors();
   }, []);
 
@@ -52,7 +51,7 @@ let ContributorList = () => {
         <div className="py-4 text-2xl font-bold flex flex-auto justify-center">
           Contributors
         </div>
-        <div className="flex justify-center gap-5">
+        <div className="flex justify-center gap-5 flex-wrap">
           {contributors.map((contrib) => (
             <Contributor contributor={contrib} key={contrib.name} />
           ))}
