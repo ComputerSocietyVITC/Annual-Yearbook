@@ -17,7 +17,7 @@ let Main = () => {
           students and previously graduated students are welcome to list their profile here and present a cool
           story/fact about their time at university
         </section>
-        <div className="timelinecontainer flex flex-row items-center justify-center sm:w-full">
+        <div className="timelinecontainer hidden flex-row items-center justify-center sm:flex">
           <Timeline />
         </div>
         <ContributorList />
