@@ -48,8 +48,6 @@ This project uses React, TailwindCSS and JavaScript for development! We will con
             <sub style="font-size:14px"><b>Manav Garg</b></sub>
         </a>
     </td>
-</tr>
-<tr>
     <td align="center" style="word-wrap: break-word; width: 75.0; height: 75.0">
         <a href=https://github.com/icebelly29>
             <img src=https://avatars.githubusercontent.com/u/68722494?v=4 width="50;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=Nikhil Nair/>
