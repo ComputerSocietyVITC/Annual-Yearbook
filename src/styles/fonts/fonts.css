@@ -9,3 +9,9 @@
   src: url("./FjallaOne-Regular.ttf");
   font-weight: regular;
 }
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("./Montserrat-Bold.ttf");
+  font-weight: bold;
+}
