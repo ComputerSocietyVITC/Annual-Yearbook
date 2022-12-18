@@ -4,6 +4,7 @@ import Layout from "./layout";
 import ContributorList from "../typescript/contributors";
 import Timeline from "../typescript/timeline";
 
+
 let Main = () => {
   return (
     <>
@@ -13,14 +14,16 @@ let Main = () => {
         </section>
         <section className="py-4 text-4xl font-bold flex flex-auto justify-center">
           Annual Yearbook
+
         </section>
+        <section className="py-4 text-4xl font-bold flex flex-auto justify-center">Annual Yearbook</section>
         <section className="p-4 text-2xl font-regular flex flex-auto self-center">
           An open-source project to record and generate a memorable yearbook for
           university students. All graduating students and previously graduated
           students are welcome to list their profile here and present a cool
           story/fact about their time at university
         </section>
-        <div className="timelinecontainer flex flex-row items-center justify-center sm:w-full">
+       <div className="timelinecontainer hidden flex-row items-center justify-center sm:flex">
           <Timeline />
         </div>
         <ContributorList />
