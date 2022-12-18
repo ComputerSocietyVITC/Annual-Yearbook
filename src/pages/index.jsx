@@ -1,14 +1,12 @@
 import * as React from "react";
-import HeaderComponent from "../components/javascript/header.jsx";
-import Main from "../components/javascript/main.jsx";
-import Timeline from "../components/javascript/timeline.jsx";
+import HeaderComponent from "../components/typescript/header";
+import Main from "../components/javascript/main";
 
 const IndexPage = () => {
   return (
     <>
       <HeaderComponent />
       <Main />
-      {/* <Timeline /> */}
     </>
   );
 };

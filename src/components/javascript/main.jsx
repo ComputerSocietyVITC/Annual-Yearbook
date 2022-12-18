@@ -2,7 +2,7 @@ import * as React from "react";
 import logo from "../../images/icon.png";
 import Layout from "./layout";
 import ContributorList from "../typescript/contributors";
-import Timeline from "./timeline";
+import Timeline from "../typescript/timeline";
 
 let Main = () => {
   return (
