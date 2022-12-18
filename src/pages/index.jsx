@@ -7,6 +7,7 @@ const IndexPage = () => {
     <>
       <HeaderComponent />
       <Main />
+      {/* <Timeline /> */}
     </>
   );
 };
