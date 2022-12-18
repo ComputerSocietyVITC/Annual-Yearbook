@@ -86,6 +86,13 @@ This project uses React, TailwindCSS and JavaScript for development! We will con
         </a>
     </td>
     <td align="center" style="word-wrap: break-word; width: 75.0; height: 75.0">
+        <a href=https://github.com/bytesofbec>
+            <img src=https://avatars.githubusercontent.com/u/61302491?v=4 width="50;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=Rebecca Mathews/>
+            <br />
+            <sub style="font-size:14px"><b>Rebecca Mathews</b></sub>
+        </a>
+    </td>
+    <td align="center" style="word-wrap: break-word; width: 75.0; height: 75.0">
         <a href=https://github.com/Deceptrax123>
             <img src=https://avatars.githubusercontent.com/u/87447180?v=4 width="50;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=Srinitish S/>
             <br />
