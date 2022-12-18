@@ -8,7 +8,6 @@ To contribute to this project, you will have to fork the repository, you can for
 
 ![Fork](https://user-images.githubusercontent.com/67182544/194706505-22fff483-2bbc-4ee8-a025-49af21bf2852.png)
 
-
 This fork will be maintained in your account's repository. As you contribute, your changes will be recorded in your repository.
 
 You can read more about forking here:
@@ -52,7 +51,6 @@ git commit -s
 Once you have commited your changes, you need to sync it up with your repository, you need to run
 
 ![image](https://user-images.githubusercontent.com/67182544/194706535-160db31f-a572-418f-9347-1d22a40df04d.png)
-
 
 ```sh
 git push -u origin <your-branch-name>

@@ -94,4 +94,3 @@ This project uses React, TailwindCSS and JavaScript for development! We will con
     </td>
 </tr>
 </table>
-
