@@ -1,6 +1,6 @@
 import * as React from "react";
-import HeaderComponent from "../components/javascript/header.jsx";
-import Main from "../components/javascript/main.jsx";
+import HeaderComponent from "../components/typescript/header";
+import Main from "../components/javascript/main";
 
 const IndexPage = () => {
   return (
