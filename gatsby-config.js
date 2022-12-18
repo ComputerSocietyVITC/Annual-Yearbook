@@ -1,6 +1,6 @@
 export const siteMetadata = {
   title: `annual-yearbook`,
-  description: `Student's yearbook is an open-source project which intends to dispaly the students who will be graduating and who've graduated through the years forming a yearbook.`,
+  description: `Student's yearbook is an open-source project which intends to display the students who will be graduating and who've graduated through the years forming a yearbook.`,
   siteUrl: `https://memories.ieeecsvitc.com`
 };
 export const plugins = [
