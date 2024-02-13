@@ -20,13 +20,13 @@ Fork the repository then clone the repository in your desired working directory
 
 Run the following command to install the project dependencies:
 
-'npm install' 
+`npm install`
 or 
-'npm i'
+`npm i`
 
 After the dependencies are installed, you can run the application on your local machine using this command:
 
-'npm run dev'
+`npm run dev`
 
 This project does not require any environment variables!
 
@@ -36,18 +36,18 @@ Remember to NEVER make commits to the master branch!
 
 Create a branch using the following command:
 
-'git branch <branch_name>'
+`git branch <branch_name>`
 
 Checkout into the created branch:
 
-'git checkout '<branch_name>'
+`git checkout '<branch_name>`
 
 After making your desired changes, run the following commands to push your changes to the remote repository:
 
-'git add .'
-'git commit -m <your_message>'
-'git commit -s'
-'git push -u origin <your-branch-name>'
+`git add .`
+`git commit -m <your_message>`
+`git commit -s`
+`git push -u origin <your-branch-name>`
 
 You may review your changes on Github and submit a pull request to the original repository!
 
