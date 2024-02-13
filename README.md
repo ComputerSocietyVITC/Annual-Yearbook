@@ -2,9 +2,54 @@
 
 ![image](https://user-images.githubusercontent.com/67182544/185732369-a16904c9-7162-4b72-8c84-962fe9a6c50f.png)
 
-Student's yearbook is an open-source project which intends to dispaly the students who will be graduating and who've graduated through the years forming a yearbook. This project can be seen here at [Memories](https://memories.ieeecsvitc.com).
+Student's yearbook is an open-source project that intends to display the students who will be graduating and who've graduated through the years forming a yearbook. This project can be seen here at [Memories](https://memories.ieeecsvitc.com).
 
-We reccommend you to read the [contributing guide](./CONTRIBUTING.md) if you're new to the world of open-source!
+We recommend reading the [contributing guide](./CONTRIBUTING.md) if you're new to the world of open-source!
+
+This project is a front-end-only application designed to offer a smooth user experience and to allow new developers to learn how to develop single-page web applications.
+
+This allows for cost efficient scalability since we do not need to worry about server-side rendering!
+
+## Setting up Environment
+
+This project requires Gatsby which requires Node, you can install the latest version here:
+
+https://nodejs.org/en/download
+
+Fork the repository then clone the repository in your desired working directory
+
+Run the following command to install the project dependencies:
+
+'npm install' 
+or 
+'npm i'
+
+After the dependencies are installed, you can run the application on your local machine using this command:
+
+'npm run dev'
+
+This project does not require any environment variables!
+
+## Contribution
+
+Remember to NEVER make commits to the master branch!
+
+Create a branch using the following command:
+
+'git branch <branch_name>'
+
+Checkout into the created branch:
+
+'git checkout '<branch_name>'
+
+After making your desired changes, run the following commands to push your changes to the remote repository:
+
+'git add .'
+'git commit -m <your_message>'
+'git commit -s'
+'git push -u origin <your-branch-name>'
+
+You may review your changes on Github and submit a pull request to the original repository!
 
 ## Tech Stack and Architecture
 
@@ -15,6 +60,7 @@ This project uses React, TailwindCSS and JavaScript for development! We will con
 - React
 - Gatsby
 - TailwindCSS
+- Javascript
 
 ## Our Contributors
 
