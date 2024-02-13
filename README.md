@@ -21,7 +21,9 @@ Fork the repository then clone the repository in your desired working directory
 Run the following command to install the project dependencies:
 
 `npm install`
+
 or 
+
 `npm i`
 
 After the dependencies are installed, you can run the application on your local machine using this command:
@@ -45,8 +47,11 @@ Checkout into the created branch:
 After making your desired changes, run the following commands to push your changes to the remote repository:
 
 `git add .`
+
 `git commit -m <your_message>`
+
 `git commit -s`
+
 `git push -u origin <your-branch-name>`
 
 You may review your changes on Github and submit a pull request to the original repository!
